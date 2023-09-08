@@ -1,0 +1,8 @@
+{:paths ["src"]
+ :deps {
+        ring/ring {:mvn/version "1.10.0"} 
+        compojure/compojure {:mvn/version "1.7.0"}
+        }
+ :mvn/repos {"central" {:url "https://repo1.maven.org/maven2/"}
+             "clojars" {:url "https://repo.clojars.org/"}}}
+   

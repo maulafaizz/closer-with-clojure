@@ -1,0 +1,9 @@
+{
+ :paths ["src"]
+ :deps {ring/ring {:mvn/version "1.10.0"} ring/ring-json {:mvn/version "0.5.1"}}
+ :mvn/repos {
+  "central" {:url "https://repo1.maven.org/maven2/"}
+  "clojars" {:url "https://repo.clojars.org/"}
+  }
+}
+   

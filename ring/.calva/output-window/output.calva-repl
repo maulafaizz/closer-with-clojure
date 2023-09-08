@@ -1,0 +1,226 @@
+; Jacking in...
+; Connecting using "deps.edn" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /Users/maula-alami/OrbStack/ubuntu/home/maula-alami/closer-with-clojure/ring ; java -jar '/Users/maula-alami/.vscode/extensions/betterthantomorrow.calva-2.0.386/deps.clj.jar' -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"1.0.0"},cider/cider-nrepl {:mvn/version,"0.28.5"}}}' -M -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware]" ; popd
+; nREPL Connection was closed
+; Using host:port localhost:62190 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉user꞉> 
+clj꞉user꞉> 
+; Jack-in done.
+clj꞉user꞉> 
+; Syntax error compiling at (src/backend.clj:12:10).
+; Unable to resolve symbol: wrap-json-response in this context
+clj꞉backend꞉> 
+nil
+clj꞉backend꞉> 
+#'backend/handler
+clj꞉backend꞉> 
+#'backend/app
+clj꞉backend꞉> 
+#object[org.eclipse.jetty.server.Server 0x438725d5 "Server@438725d5{STARTED}[9.4.51.v20230217]"]
+clj꞉backend꞉> 
+; Execution error (BindException) at sun.nio.ch.Net/bind0 (Net.java:-2).
+; Address already in use
+clj꞉backend꞉> 
+#object[org.eclipse.jetty.server.Server 0x4881b688 "Server@4881b688{STARTED}[9.4.51.v20230217]"]
+clj꞉backend꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "deps.edn" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /Users/maula-alami/OrbStack/ubuntu/home/maula-alami/closer-with-clojure/ring ; java -jar '/Users/maula-alami/.vscode/extensions/betterthantomorrow.calva-2.0.386/deps.clj.jar' -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"1.0.0"},cider/cider-nrepl {:mvn/version,"0.28.5"}}}' -M -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware]" ; popd
+; Using host:port localhost:62246 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉user꞉> 
+clj꞉user꞉> 
+; Jack-in done.
+clj꞉user꞉> 
+nil
+clj꞉backend꞉> 
+nil
+clj꞉backend꞉> 
+#'backend/handler
+clj꞉backend꞉> 
+#'backend/handler-json
+clj꞉backend꞉> 
+#'backend/app
+clj꞉backend꞉> 
+#object[org.eclipse.jetty.server.Server 0x6b57ef34 "Server@6b57ef34{STARTED}[9.4.51.v20230217]"]
+clj꞉backend꞉> 
+#object[org.eclipse.jetty.server.Server 0x558686ab "Server@558686ab{STARTED}[9.4.51.v20230217]"]
+clj꞉backend꞉> 
+; Jacking in...
+; Connecting using "deps.edn" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /Users/maula-alami/OrbStack/ubuntu/home/maula-alami/closer-with-clojure/ring ; java -jar '/Users/maula-alami/.vscode/extensions/betterthantomorrow.calva-2.0.386/deps.clj.jar' -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"1.0.0"},cider/cider-nrepl {:mvn/version,"0.28.5"}}}' -M -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware]" ; popd
+; Using host:port localhost:62589 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉user꞉> 
+clj꞉user꞉> 
+; Jack-in done.
+clj꞉user꞉> 
+nil
+clj꞉backend꞉> 
+nil
+clj꞉ring-backend꞉> 
+nil
+clj꞉backend꞉> 
+nil
+clj꞉backend꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "deps.edn" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /Users/maula-alami/OrbStack/ubuntu/home/maula-alami/closer-with-clojure/ring ; java -jar '/Users/maula-alami/.vscode/extensions/betterthantomorrow.calva-2.0.386/deps.clj.jar' -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"1.0.0"},cider/cider-nrepl {:mvn/version,"0.28.5"}}}' -M -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware]" ; popd
+; Using host:port localhost:62642 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉user꞉> 
+clj꞉user꞉> 
+; Jack-in done.
+clj꞉user꞉> 
+nil
+clj꞉ring-backend꞉> 
+#'ring-backend/handler
+clj꞉ring-backend꞉> 
+#'ring-backend/handler-json
+clj꞉ring-backend꞉> 
+#'ring-backend/app
+clj꞉ring-backend꞉> 
+#object[org.eclipse.jetty.server.Server 0x773358fa "Server@773358fa{STARTED}[9.4.51.v20230217]"]
+clj꞉ring-backend꞉> 
+#object[org.eclipse.jetty.server.Server 0x6f0a235b "Server@6f0a235b{STARTED}[9.4.51.v20230217]"]
+clj꞉ring-backend꞉> 
+nil
+clj꞉playground꞉> 
+nil
+clj꞉ring.backend꞉> 
+; Execution error (FileNotFoundException) at backend/eval9711$loading (REPL:1).
+; Could not locate compojure/core__init.class, compojure/core.clj or compojure/core.cljc on classpath.
+clj꞉backend꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "deps.edn" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /Users/maula-alami/OrbStack/ubuntu/home/maula-alami/closer-with-clojure/ring ; java -jar '/Users/maula-alami/.vscode/extensions/betterthantomorrow.calva-2.0.386/deps.clj.jar' -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"1.0.0"},cider/cider-nrepl {:mvn/version,"0.28.5"}}}' -M -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware]" ; popd
+; Using host:port localhost:63219 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉user꞉> 
+clj꞉user꞉> 
+; Jack-in done.
+clj꞉user꞉> 
+; Jacking in...
+; Connecting using "deps.edn" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /Users/maula-alami/OrbStack/ubuntu/home/maula-alami/closer-with-clojure/ring ; java -jar '/Users/maula-alami/.vscode/extensions/betterthantomorrow.calva-2.0.386/deps.clj.jar' -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"1.0.0"},cider/cider-nrepl {:mvn/version,"0.28.5"}}}' -M -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware]" ; popd
+; Using host:port localhost:63245 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉user꞉> 
+clj꞉user꞉> 
+; Jack-in done.
+clj꞉user꞉> 
+nil
+clj꞉ring_backend꞉> 
+nil
+clj꞉ring_backend꞉> 
+#'ring_backend/handler
+clj꞉ring_backend꞉> 
+#'ring_backend/handler-json
+clj꞉ring_backend꞉> 
+#'ring_backend/app
+clj꞉ring_backend꞉> 
+#object[org.eclipse.jetty.server.Server 0x1942435 "Server@1942435{STARTED}[9.4.51.v20230217]"]
+clj꞉ring_backend꞉> 
+; Execution error (BindException) at sun.nio.ch.Net/bind0 (Net.java:-2).
+; Address already in use
+clj꞉ring_backend꞉> 
+; Execution error (BindException) at sun.nio.ch.Net/bind0 (Net.java:-2).
+; Address already in use
+clj꞉ring_backend꞉> 
+#object[org.eclipse.jetty.server.Server 0xe88c1d5 "Server@e88c1d5{STARTED}[9.4.51.v20230217]"]
+clj꞉ring_backend꞉> 
+; Syntax error compiling at (/Users/maula-alami/OrbStack/ubuntu/home/maula-alami/closer-with-clojure/compojure/src/compojure_backend.clj:4:10).
+; Unable to resolve symbol: routes in this context
+clj꞉compojure_backend꞉> 
+; Syntax error compiling at (/Users/maula-alami/OrbStack/ubuntu/home/maula-alami/closer-with-clojure/compojure/src/compojure_backend.clj:4:1).
+; Unable to resolve symbol: defroutes in this context
+clj꞉compojure_backend꞉> 
+; Syntax error compiling at (/Users/maula-alami/OrbStack/ubuntu/home/maula-alami/closer-with-clojure/compojure/src/compojure_backend.clj:4:1).
+; Unable to resolve symbol: defroutes in this context
+clj꞉compojure_backend꞉> 
+; Syntax error compiling at (/Users/maula-alami/OrbStack/ubuntu/home/maula-alami/closer-with-clojure/compojure/src/compojure_backend.clj:4:1).
+; Unable to resolve symbol: defroutes in this context
+clj꞉compojure_backend꞉> 
+; nREPL Connection was closed

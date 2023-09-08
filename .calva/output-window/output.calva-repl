@@ -1,0 +1,331 @@
+; Jacking in...
+; Connecting using "deps.edn" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /Users/maula-alami/OrbStack/ubuntu/home/maula-alami/closer-with-clojure ; java -jar '/Users/maula-alami/.vscode/extensions/betterthantomorrow.calva-2.0.386/deps.clj.jar' -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"1.0.0"},cider/cider-nrepl {:mvn/version,"0.28.5"}}}' -M -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware]" ; popd
+; Using host:port localhost:64185 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉user꞉> 
+clj꞉user꞉> 
+; Jack-in done.
+clj꞉user꞉> 
+nil
+clj꞉backend꞉> 
+#'backend/handler
+clj꞉backend꞉> 
+#object[org.eclipse.jetty.server.Server 0xcfd2d49 "Server@cfd2d49{STARTED}[9.4.51.v20230217]"]
+clj꞉backend꞉> 
+src:/Users/maula-alami/.m2/repository/cider/cider-nrepl/0.28.5/cider-nrepl-0.28.5.jar:/Users/maula-alami/.m2/repository/nrepl/nrepl/1.0.0/nrepl-1.0.0.jar:/Users/maula-alami/.m2/repository/org/clojure/clojure/1.11.1/clojure-1.11.1.jar:/Users/maula-alami/.m2/repository/ring/ring/1.10.0/ring-1.10.0.jar:/Users/maula-alami/.m2/repository/org/clojure/core.specs.alpha/0.2.62/core.specs.alpha-0.2.62.jar:/Users/maula-alami/.m2/repository/org/clojure/spec.alpha/0.3.218/spec.alpha-0.3.218.jar:/Users/maula-alami/.m2/repository/ring/ring-core/1.10.0/ring-core-1.10.0.jar:/Users/maula-alami/.m2/repository/ring/ring-devel/1.10.0/ring-devel-1.10.0.jar:/Users/maula-alami/.m2/repository/ring/ring-jetty-adapter/1.10.0/ring-jetty-adapter-1.10.0.jar:/Users/maula-alami/.m2/repository/ring/ring-servlet/1.10.0/ring-servlet-1.10.0.jar:/Users/maula-alami/.m2/repository/commons-fileupload/commons-fileupload/1.5/commons-fileupload-1.5.jar:/Users/maula-alami/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/maula-alami/.m2/repository/crypto-equality/crypto-equality/1.0.1/crypto-equality-1.0.1.jar:/Users/maula-alami/.m2/repository/crypto-random/crypto-random/1.2.1/crypto-random-1.2.1.jar:/Users/maula-alami/.m2/repository/ring/ring-codec/1.2.0/ring-codec-1.2.0.jar:/Users/maula-alami/.m2/repository/clj-stacktrace/clj-stacktrace/0.2.8/clj-stacktrace-0.2.8.jar:/Users/maula-alami/.m2/repository/hiccup/hiccup/1.0.5/hiccup-1.0.5.jar:/Users/maula-alami/.m2/repository/ns-tracker/ns-tracker/0.4.0/ns-tracker-0.4.0.jar:/Users/maula-alami/.m2/repository/org/eclipse/jetty/jetty-server/9.4.51.v20230217/jetty-server-9.4.51.v20230217.jar:/Users/maula-alami/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/maula-alami/.m2/repository/org/clojure/java.classpath/0.3.0/java.classpath-0.3.0.jar:/Users/maula-alami/.m2/repository/org/clojure/tools.namespace/0.2.11/tools.namespace-0.2.11.jar:/Users/maula-alami/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/maula-alami/.m2/repository/org/eclipse/jetty/jetty-http/9.4.51.v20230217/jetty-http-9.4.51.v20230217.jar:/Users/maula-alami/.m2/repository/org/eclipse/jetty/jetty-io/9.4.51.v20230217/jetty-io-9.4.51.v20230217.jar:/Users/maula-alami/.m2/repository/org/eclipse/jetty/jetty-util/9.4.51.v20230217/jetty-util-9.4.51.v20230217.jar
+nil
+clj꞉backend꞉> 
+src:/Users/maula-alami/.m2/repository/cider/cider-nrepl/0.28.5/cider-nrepl-0.28.5.jar:/Users/maula-alami/.m2/repository/nrepl/nrepl/1.0.0/nrepl-1.0.0.jar:/Users/maula-alami/.m2/repository/org/clojure/clojure/1.11.1/clojure-1.11.1.jar:/Users/maula-alami/.m2/repository/ring/ring/1.10.0/ring-1.10.0.jar:/Users/maula-alami/.m2/repository/org/clojure/core.specs.alpha/0.2.62/core.specs.alpha-0.2.62.jar:/Users/maula-alami/.m2/repository/org/clojure/spec.alpha/0.3.218/spec.alpha-0.3.218.jar:/Users/maula-alami/.m2/repository/ring/ring-core/1.10.0/ring-core-1.10.0.jar:/Users/maula-alami/.m2/repository/ring/ring-devel/1.10.0/ring-devel-1.10.0.jar:/Users/maula-alami/.m2/repository/ring/ring-jetty-adapter/1.10.0/ring-jetty-adapter-1.10.0.jar:/Users/maula-alami/.m2/repository/ring/ring-servlet/1.10.0/ring-servlet-1.10.0.jar:/Users/maula-alami/.m2/repository/commons-fileupload/commons-fileupload/1.5/commons-fileupload-1.5.jar:/Users/maula-alami/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/maula-alami/.m2/repository/crypto-equality/crypto-equality/1.0.1/crypto-equality-1.0.1.jar:/Users/maula-alami/.m2/repository/crypto-random/crypto-random/1.2.1/crypto-random-1.2.1.jar:/Users/maula-alami/.m2/repository/ring/ring-codec/1.2.0/ring-codec-1.2.0.jar:/Users/maula-alami/.m2/repository/clj-stacktrace/clj-stacktrace/0.2.8/clj-stacktrace-0.2.8.jar:/Users/maula-alami/.m2/repository/hiccup/hiccup/1.0.5/hiccup-1.0.5.jar:/Users/maula-alami/.m2/repository/ns-tracker/ns-tracker/0.4.0/ns-tracker-0.4.0.jar:/Users/maula-alami/.m2/repository/org/eclipse/jetty/jetty-server/9.4.51.v20230217/jetty-server-9.4.51.v20230217.jar:/Users/maula-alami/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/maula-alami/.m2/repository/org/clojure/java.classpath/0.3.0/java.classpath-0.3.0.jar:/Users/maula-alami/.m2/repository/org/clojure/tools.namespace/0.2.11/tools.namespace-0.2.11.jar:/Users/maula-alami/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/maula-alami/.m2/repository/org/eclipse/jetty/jetty-http/9.4.51.v20230217/jetty-http-9.4.51.v20230217.jar:/Users/maula-alami/.m2/repository/org/eclipse/jetty/jetty-io/9.4.51.v20230217/jetty-io-9.4.51.v20230217.jar:/Users/maula-alami/.m2/repository/org/eclipse/jetty/jetty-util/9.4.51.v20230217/jetty-util-9.4.51.v20230217.jar
+nil
+clj꞉backend꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "deps.edn" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /Users/maula-alami/OrbStack/ubuntu/home/maula-alami/closer-with-clojure ; java -jar '/Users/maula-alami/.vscode/extensions/betterthantomorrow.calva-2.0.386/deps.clj.jar' -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"1.0.0"},cider/cider-nrepl {:mvn/version,"0.28.5"}}}' -M -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware]" ; popd
+; Using host:port localhost:64224 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉user꞉> 
+clj꞉user꞉> 
+; Jack-in done.
+clj꞉user꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "deps.edn" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /Users/maula-alami/OrbStack/ubuntu/home/maula-alami/closer-with-clojure ; java -jar '/Users/maula-alami/.vscode/extensions/betterthantomorrow.calva-2.0.386/deps.clj.jar' -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"1.0.0"},cider/cider-nrepl {:mvn/version,"0.28.5"}}}' -M -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware]" ; popd
+; Using host:port localhost:64330 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉user꞉> 
+clj꞉user꞉> 
+; Jack-in done.
+clj꞉user꞉> 
+"Hello World! Yeah"
+clj꞉playground꞉> 
+#'playground/number
+clj꞉playground꞉> 
+#'playground/add-number
+clj꞉playground꞉> 
+10
+clj꞉playground꞉> 
+; Syntax error compiling at (playground.clj:17:1).
+; Unable to resolve symbol: subs-number in this context
+clj꞉playground꞉> 
+#'playground/subs-number
+clj꞉playground꞉> 
+-2
+clj꞉playground꞉> 
+src:/Users/maula-alami/.m2/repository/cider/cider-nrepl/0.28.5/cider-nrepl-0.28.5.jar:/Users/maula-alami/.m2/repository/nrepl/nrepl/1.0.0/nrepl-1.0.0.jar:/Users/maula-alami/.m2/repository/org/clojure/clojure/1.11.1/clojure-1.11.1.jar:/Users/maula-alami/.m2/repository/ring/ring/1.10.0/ring-1.10.0.jar:/Users/maula-alami/.m2/repository/org/clojure/core.specs.alpha/0.2.62/core.specs.alpha-0.2.62.jar:/Users/maula-alami/.m2/repository/org/clojure/spec.alpha/0.3.218/spec.alpha-0.3.218.jar:/Users/maula-alami/.m2/repository/ring/ring-core/1.10.0/ring-core-1.10.0.jar:/Users/maula-alami/.m2/repository/ring/ring-devel/1.10.0/ring-devel-1.10.0.jar:/Users/maula-alami/.m2/repository/ring/ring-jetty-adapter/1.10.0/ring-jetty-adapter-1.10.0.jar:/Users/maula-alami/.m2/repository/ring/ring-servlet/1.10.0/ring-servlet-1.10.0.jar:/Users/maula-alami/.m2/repository/commons-fileupload/commons-fileupload/1.5/commons-fileupload-1.5.jar:/Users/maula-alami/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/maula-alami/.m2/repository/crypto-equality/crypto-equality/1.0.1/crypto-equality-1.0.1.jar:/Users/maula-alami/.m2/repository/crypto-random/crypto-random/1.2.1/crypto-random-1.2.1.jar:/Users/maula-alami/.m2/repository/ring/ring-codec/1.2.0/ring-codec-1.2.0.jar:/Users/maula-alami/.m2/repository/clj-stacktrace/clj-stacktrace/0.2.8/clj-stacktrace-0.2.8.jar:/Users/maula-alami/.m2/repository/hiccup/hiccup/1.0.5/hiccup-1.0.5.jar:/Users/maula-alami/.m2/repository/ns-tracker/ns-tracker/0.4.0/ns-tracker-0.4.0.jar:/Users/maula-alami/.m2/repository/org/eclipse/jetty/jetty-server/9.4.51.v20230217/jetty-server-9.4.51.v20230217.jar:/Users/maula-alami/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/maula-alami/.m2/repository/org/clojure/java.classpath/0.3.0/java.classpath-0.3.0.jar:/Users/maula-alami/.m2/repository/org/clojure/tools.namespace/0.2.11/tools.namespace-0.2.11.jar:/Users/maula-alami/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/maula-alami/.m2/repository/org/eclipse/jetty/jetty-http/9.4.51.v20230217/jetty-http-9.4.51.v20230217.jar:/Users/maula-alami/.m2/repository/org/eclipse/jetty/jetty-io/9.4.51.v20230217/jetty-io-9.4.51.v20230217.jar:/Users/maula-alami/.m2/repository/org/eclipse/jetty/jetty-util/9.4.51.v20230217/jetty-util-9.4.51.v20230217.jar
+nil
+clj꞉backend꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "deps.edn" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /Users/maula-alami/OrbStack/ubuntu/home/maula-alami/closer-with-clojure ; java -jar '/Users/maula-alami/.vscode/extensions/betterthantomorrow.calva-2.0.386/deps.clj.jar' -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"1.0.0"},cider/cider-nrepl {:mvn/version,"0.28.5"}}}' -M -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware]" ; popd
+; Using host:port localhost:64379 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉user꞉> 
+clj꞉user꞉> 
+; Jack-in done.
+clj꞉user꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "deps.edn" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /Users/maula-alami/OrbStack/ubuntu/home/maula-alami/closer-with-clojure ; java -jar '/Users/maula-alami/.vscode/extensions/betterthantomorrow.calva-2.0.386/deps.clj.jar' -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"1.0.0"},cider/cider-nrepl {:mvn/version,"0.28.5"}}}' -M -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware]" ; popd
+; Using host:port localhost:64411 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉user꞉> 
+clj꞉user꞉> 
+; Jack-in done.
+clj꞉user꞉> 
+; Syntax error compiling at (src/backend.clj:13:3).
+; Unable to resolve symbol: println in this context
+clj꞉backend꞉> 
+nil
+clj꞉backend꞉> 
+src:/Users/maula-alami/.m2/repository/cider/cider-nrepl/0.28.5/cider-nrepl-0.28.5.jar:/Users/maula-alami/.m2/repository/nrepl/nrepl/1.0.0/nrepl-1.0.0.jar:/Users/maula-alami/.m2/repository/org/clojure/clojure/1.11.1/clojure-1.11.1.jar:/Users/maula-alami/.m2/repository/ring/ring/1.10.0/ring-1.10.0.jar:/Users/maula-alami/.m2/repository/org/clojure/core.specs.alpha/0.2.62/core.specs.alpha-0.2.62.jar:/Users/maula-alami/.m2/repository/org/clojure/spec.alpha/0.3.218/spec.alpha-0.3.218.jar:/Users/maula-alami/.m2/repository/ring/ring-core/1.10.0/ring-core-1.10.0.jar:/Users/maula-alami/.m2/repository/ring/ring-devel/1.10.0/ring-devel-1.10.0.jar:/Users/maula-alami/.m2/repository/ring/ring-jetty-adapter/1.10.0/ring-jetty-adapter-1.10.0.jar:/Users/maula-alami/.m2/repository/ring/ring-servlet/1.10.0/ring-servlet-1.10.0.jar:/Users/maula-alami/.m2/repository/commons-fileupload/commons-fileupload/1.5/commons-fileupload-1.5.jar:/Users/maula-alami/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/maula-alami/.m2/repository/crypto-equality/crypto-equality/1.0.1/crypto-equality-1.0.1.jar:/Users/maula-alami/.m2/repository/crypto-random/crypto-random/1.2.1/crypto-random-1.2.1.jar:/Users/maula-alami/.m2/repository/ring/ring-codec/1.2.0/ring-codec-1.2.0.jar:/Users/maula-alami/.m2/repository/clj-stacktrace/clj-stacktrace/0.2.8/clj-stacktrace-0.2.8.jar:/Users/maula-alami/.m2/repository/hiccup/hiccup/1.0.5/hiccup-1.0.5.jar:/Users/maula-alami/.m2/repository/ns-tracker/ns-tracker/0.4.0/ns-tracker-0.4.0.jar:/Users/maula-alami/.m2/repository/org/eclipse/jetty/jetty-server/9.4.51.v20230217/jetty-server-9.4.51.v20230217.jar:/Users/maula-alami/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/maula-alami/.m2/repository/org/clojure/java.classpath/0.3.0/java.classpath-0.3.0.jar:/Users/maula-alami/.m2/repository/org/clojure/tools.namespace/0.2.11/tools.namespace-0.2.11.jar:/Users/maula-alami/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/maula-alami/.m2/repository/org/eclipse/jetty/jetty-http/9.4.51.v20230217/jetty-http-9.4.51.v20230217.jar:/Users/maula-alami/.m2/repository/org/eclipse/jetty/jetty-io/9.4.51.v20230217/jetty-io-9.4.51.v20230217.jar:/Users/maula-alami/.m2/repository/org/eclipse/jetty/jetty-util/9.4.51.v20230217/jetty-util-9.4.51.v20230217.jar
+nil
+clj꞉backend꞉> 
+; Syntax error compiling at (src/backend.clj:13:3).
+; Unable to resolve symbol: handler in this context
+clj꞉backend꞉> 
+#'backend/handler
+clj꞉backend꞉> 
+#object[org.eclipse.jetty.server.Server 0x7795c58c "Server@7795c58c{STARTED}[9.4.51.v20230217]"]
+clj꞉backend꞉> 
+; Execution error (BindException) at sun.nio.ch.Net/bind0 (Net.java:-2).
+; Address already in use
+clj꞉backend꞉> 
+#'backend/handler
+clj꞉backend꞉> 
+; Execution error (BindException) at sun.nio.ch.Net/bind0 (Net.java:-2).
+; Address already in use
+clj꞉backend꞉> 
+; Execution error (BindException) at sun.nio.ch.Net/bind0 (Net.java:-2).
+; Address already in use
+clj꞉backend꞉> 
+; Execution error (BindException) at sun.nio.ch.Net/bind0 (Net.java:-2).
+; Address already in use
+clj꞉backend꞉> 
+#object[org.eclipse.jetty.server.Server 0x17261ee4 "Server@17261ee4{STARTED}[9.4.51.v20230217]"]
+clj꞉backend꞉> 
+; Execution error (BindException) at sun.nio.ch.Net/bind0 (Net.java:-2).
+; Address already in use
+clj꞉backend꞉> 
+; Execution error (BindException) at sun.nio.ch.Net/bind0 (Net.java:-2).
+; Address already in use
+clj꞉backend꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "deps.edn" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /Users/maula-alami/OrbStack/ubuntu/home/maula-alami/closer-with-clojure ; java -jar '/Users/maula-alami/.vscode/extensions/betterthantomorrow.calva-2.0.386/deps.clj.jar' -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"1.0.0"},cider/cider-nrepl {:mvn/version,"0.28.5"}}}' -M -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware]" ; popd
+; Using host:port localhost:64505 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉user꞉> 
+clj꞉user꞉> 
+; Jack-in done.
+clj꞉user꞉> 
+nil
+clj꞉backend꞉> 
+; Syntax error compiling at (src/backend.clj:11:3).
+; Unable to resolve symbol: handler in this context
+clj꞉backend꞉> 
+nil
+clj꞉backend꞉> 
+; Syntax error compiling at (src/backend.clj:11:3).
+; Unable to resolve symbol: handler in this context
+clj꞉backend꞉> 
+#'backend/handler
+clj꞉backend꞉> 
+#object[org.eclipse.jetty.server.Server 0x3c1122a3 "Server@3c1122a3{STARTED}[9.4.51.v20230217]"]
+clj꞉backend꞉> 
+nil
+clj꞉backend꞉> 
+; Execution error (BindException) at sun.nio.ch.Net/bind0 (Net.java:-2).
+; Address already in use
+clj꞉backend꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "deps.edn" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /Users/maula-alami/OrbStack/ubuntu/home/maula-alami/closer-with-clojure ; java -jar '/Users/maula-alami/.vscode/extensions/betterthantomorrow.calva-2.0.386/deps.clj.jar' -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"1.0.0"},cider/cider-nrepl {:mvn/version,"0.28.5"}}}' -M -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware]" ; popd
+; Using host:port localhost:64627 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉user꞉> 
+clj꞉user꞉> 
+; Jack-in done.
+clj꞉user꞉> 
+nil
+clj꞉backend꞉> 
+#'backend/handler
+clj꞉backend꞉> 
+#object[org.eclipse.jetty.server.Server 0x3a514b78 "Server@3a514b78{STARTED}[9.4.51.v20230217]"]
+clj꞉backend꞉> str hello
+; Syntax error compiling at (.calva/output-window/output.calva-repl:0:0).
+; Unable to resolve symbol: hello in this context
+clj꞉backend꞉> (str "hello")
+"hello"
+clj꞉backend꞉> 
+; Execution error (BindException) at sun.nio.ch.Net/bind0 (Net.java:-2).
+; Address already in use
+clj꞉backend꞉> 
+src:/Users/maula-alami/.m2/repository/cider/cider-nrepl/0.28.5/cider-nrepl-0.28.5.jar:/Users/maula-alami/.m2/repository/nrepl/nrepl/1.0.0/nrepl-1.0.0.jar:/Users/maula-alami/.m2/repository/org/clojure/clojure/1.11.1/clojure-1.11.1.jar:/Users/maula-alami/.m2/repository/ring/ring/1.10.0/ring-1.10.0.jar:/Users/maula-alami/.m2/repository/org/clojure/core.specs.alpha/0.2.62/core.specs.alpha-0.2.62.jar:/Users/maula-alami/.m2/repository/org/clojure/spec.alpha/0.3.218/spec.alpha-0.3.218.jar:/Users/maula-alami/.m2/repository/ring/ring-core/1.10.0/ring-core-1.10.0.jar:/Users/maula-alami/.m2/repository/ring/ring-devel/1.10.0/ring-devel-1.10.0.jar:/Users/maula-alami/.m2/repository/ring/ring-jetty-adapter/1.10.0/ring-jetty-adapter-1.10.0.jar:/Users/maula-alami/.m2/repository/ring/ring-servlet/1.10.0/ring-servlet-1.10.0.jar:/Users/maula-alami/.m2/repository/commons-fileupload/commons-fileupload/1.5/commons-fileupload-1.5.jar:/Users/maula-alami/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/maula-alami/.m2/repository/crypto-equality/crypto-equality/1.0.1/crypto-equality-1.0.1.jar:/Users/maula-alami/.m2/repository/crypto-random/crypto-random/1.2.1/crypto-random-1.2.1.jar:/Users/maula-alami/.m2/repository/ring/ring-codec/1.2.0/ring-codec-1.2.0.jar:/Users/maula-alami/.m2/repository/clj-stacktrace/clj-stacktrace/0.2.8/clj-stacktrace-0.2.8.jar:/Users/maula-alami/.m2/repository/hiccup/hiccup/1.0.5/hiccup-1.0.5.jar:/Users/maula-alami/.m2/repository/ns-tracker/ns-tracker/0.4.0/ns-tracker-0.4.0.jar:/Users/maula-alami/.m2/repository/org/eclipse/jetty/jetty-server/9.4.51.v20230217/jetty-server-9.4.51.v20230217.jar:/Users/maula-alami/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/maula-alami/.m2/repository/org/clojure/java.classpath/0.3.0/java.classpath-0.3.0.jar:/Users/maula-alami/.m2/repository/org/clojure/tools.namespace/0.2.11/tools.namespace-0.2.11.jar:/Users/maula-alami/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/maula-alami/.m2/repository/org/eclipse/jetty/jetty-http/9.4.51.v20230217/jetty-http-9.4.51.v20230217.jar:/Users/maula-alami/.m2/repository/org/eclipse/jetty/jetty-io/9.4.51.v20230217/jetty-io-9.4.51.v20230217.jar:/Users/maula-alami/.m2/repository/org/eclipse/jetty/jetty-util/9.4.51.v20230217/jetty-util-9.4.51.v20230217.jar
+nil
+clj꞉backend꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "deps.edn" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /Users/maula-alami/OrbStack/ubuntu/home/maula-alami/closer-with-clojure ; java -jar '/Users/maula-alami/.vscode/extensions/betterthantomorrow.calva-2.0.386/deps.clj.jar' -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"1.0.0"},cider/cider-nrepl {:mvn/version,"0.28.5"}}}' -M -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware]" ; popd
+; Using host:port localhost:61901 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉user꞉> 
+clj꞉user꞉> 
+; Jack-in done.
+clj꞉user꞉> 
+nil
+clj꞉backend꞉> 
+#'backend/handler
+clj꞉backend꞉> 
+#object[org.eclipse.jetty.server.Server 0x55804715 "Server@55804715{STARTED}[9.4.51.v20230217]"]
+clj꞉backend꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "deps.edn" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd /Users/maula-alami/OrbStack/ubuntu/home/maula-alami/closer-with-clojure ; java -jar '/Users/maula-alami/.vscode/extensions/betterthantomorrow.calva-2.0.386/deps.clj.jar' -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"1.0.0"},cider/cider-nrepl {:mvn/version,"0.28.5"}}}' -M -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware]" ; popd
+; Using host:port localhost:61980 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉user꞉> 
+clj꞉user꞉> 
+; Jack-in done.
+clj꞉user꞉> 
+#'backend/handler
+clj꞉backend꞉> 
+; Syntax error compiling at (ring/src/backend.clj:12:3).
+; Unable to resolve symbol: run-jetty in this context
+clj꞉backend꞉> 
+nil
+clj꞉backend꞉> 
+#object[org.eclipse.jetty.server.Server 0x7a22063f "Server@7a22063f{STARTED}[9.4.51.v20230217]"]
+clj꞉backend꞉> 
+#'backend/handler
+clj꞉backend꞉> 
+#'backend/handler
+clj꞉backend꞉> 
+; Execution error (FileNotFoundException) at backend/eval8585$loading (REPL:1).
+; Could not locate ring/middleware/json__init.class, ring/middleware/json.clj or ring/middleware/json.cljc on classpath.
+clj꞉backend꞉> 
